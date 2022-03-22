@@ -45,6 +45,21 @@
 		"mod": "Turris-Omnia",
 		"addons": ["readme.pdf", "turris-omnia-initramfs.tar.gz", "turris.txt"]
 	},
+	"RASPPI1": {
+		"details": "Raspberry Pi 1",
+		"type": "3",
+		"build": "2102",
+		"config": ".config_rasppi1",
+		"image1": "openwrt-bcm27xx-bcm2708-rpi-ext4-factory.img.gz",
+		"image2": "openwrt-bcm27xx-bcm2708-rpi-ext4-factory.img",
+		"image3": "openwrt-bcm27xx-bcm2708-rpi-squashfs-sysupgrade.img.gz",
+		"image4": "openwrt-bcm27xx-bcm2708-rpi-squashfs-sysupgrade.img",
+		"imagepath": "/bcm27xx/bcm2708/",
+		"mod": "RaspberryPi-1",
+		"ext1": "-ext4.img",
+		"ext2": "-squashfs.img",
+		"addons": ["readme.pdf"]
+	},
 	"RASPPI3": {
 		"details": "Raspberry Pi 3",
 		"type": "3",
